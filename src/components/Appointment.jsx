@@ -53,10 +53,10 @@ const Appointment = () => {
     <section id="appointment" className="min-h-screen bg-gray-50 pt-20 py-32 px-4 sm:px-6 lg:px-8 relative">
       <div className="container mx-auto px-4">
         <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
-          <h2 className="text-3xl font-bold text-center mb-8">Book Appointment</h2>
+          <h2 className="text-3xl text-gray-800 font-bold text-center mb-8">Book Appointment</h2>
           <form onSubmit={onSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2">Full Name</label>
+              <label className="block  mb-2">Full Name</label>
               <input
                 type="text"
                 name="name"
@@ -66,7 +66,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2">Email</label>
+              <label className="block  mb-2">Email</label>
               <input
                 type="email"
                 name="email"
@@ -76,7 +76,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2">Phone</label>
+              <label className="block  mb-2">Phone</label>
               <input
                 type="tel"
                 name="phone"
@@ -86,7 +86,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2">Select Doctor</label>
+              <label className="block  mb-2">Select Doctor</label>
               <select
                 name="doctor"
                 required
@@ -100,7 +100,7 @@ const Appointment = () => {
               </select>
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2">Date</label>
+              <label className="block  mb-2">Date</label>
               <input
                 type="date"
                 name="date"
@@ -110,7 +110,7 @@ const Appointment = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2">Reason for Visit</label>
+              <label className="block mb-2">Reason for Visit</label>
               <textarea
                 name="reason"
                 required

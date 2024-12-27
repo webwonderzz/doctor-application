@@ -55,10 +55,10 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Contact Form */}
           <div className="bg-white rounded-lg shadow-md p-8">
-            <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
+            <h2 className="text-3xl text-gray-800 font-bold mb-8">Contact Us</h2>
             <form onSubmit={onSubmit}>
               <div className="mb-4">
-                <label className="block text-gray-700 mb-2">Full Name</label>
+                <label className="block  mb-2">Full Name</label>
                 <input
                   type="text"
                   name="name"
@@ -68,7 +68,7 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-gray-700 mb-2">Email</label>
+                <label className="block mb-2">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -78,7 +78,7 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-gray-700 mb-2">Phone</label>
+                <label className="block  mb-2">Phone</label>
                 <input
                   type="tel"
                   name="phone"
@@ -106,20 +106,20 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="bg-white rounded-lg shadow-md p-8">
+          <div className="bg-white text-gray-800 rounded-lg shadow-md p-8">
             <h2 className="text-3xl font-bold mb-8">Clinic Information</h2>
             <div className="space-y-4">
               <div className="flex items-center">
                 <MapPin className="text-blue-600 mr-4" size={32} />
-                <p>123 Health Street, Medical District, City, State 12345</p>
+                <p className='text-gray-800'>123 Health Street, Medical District, City, State 12345</p>
               </div>
               <div className="flex items-center">
                 <Phone className="text-blue-600 mr-4" size={32} />
-                <p>(555) 123-4567</p>
+                <p className='text-gray-800'>(555) 123-4567</p>
               </div>
               <div className="flex items-center">
                 <Mail className="text-blue-600 mr-4" size={32} />
-                <p>contact@healthcareclinic.com</p>
+                <p className='text-gray-800'>contact@healthcareclinic.com</p>
               </div>
             </div>
 
