@@ -56,41 +56,41 @@ const Appointment = () => {
           <h2 className="text-3xl text-gray-800 font-bold text-center mb-8">Book Appointment</h2>
           <form onSubmit={onSubmit}>
             <div className="mb-4">
-              <label className="block  mb-2">Full Name</label>
+              <label className="block text-gray-800 mb-2">Full Name</label>
               <input
                 type="text"
                 name="name"
                 required
-                className="w-full px-3 py-2 border rounded-md"
+                className="w-full px-3 py-2 border rounded-md bg-white text-black"
                 onChange={handleChange}
               />
             </div>
             <div className="mb-4">
-              <label className="block  mb-2">Email</label>
+              <label className="block text-gray-800 mb-2">Email</label>
               <input
                 type="email"
                 name="email"
                 required
-                className="w-full px-3 py-2 border rounded-md"
+                className="w-full px-3 py-2 border rounded-md bg-white text-black"
                 onChange={handleChange}
               />
             </div>
             <div className="mb-4">
-              <label className="block  mb-2">Phone</label>
+              <label className="block text-gray-800 mb-2">Phone</label>
               <input
                 type="tel"
                 name="phone"
                 required
-                className="w-full px-3 py-2 border rounded-md"
+                className="w-full px-3 py-2 border rounded-md bg-white text-black"
                 onChange={handleChange}
               />
             </div>
             <div className="mb-4">
-              <label className="block  mb-2">Select Doctor</label>
+              <label className="block text-gray-800 mb-2">Select Doctor</label>
               <select
                 name="doctor"
                 required
-                className="w-full px-3 py-2 border rounded-md"
+                className="w-full px-3 py-2 border rounded-md bg-white text-black"
                 onChange={handleChange}
               >
                 <option value="">Select a Doctor</option>
@@ -100,21 +100,21 @@ const Appointment = () => {
               </select>
             </div>
             <div className="mb-4">
-              <label className="block  mb-2">Date</label>
+              <label className="block text-gray-800 mb-2">Date</label>
               <input
                 type="date"
                 name="date"
                 required
-                className="w-full px-3 py-2 border rounded-md"
+                className="w-full px-3 py-2 border rounded-md bg-white text-black"
                 onChange={handleChange}
               />
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Reason for Visit</label>
+              <label className="block text-gray-800 mb-2">Reason for Visit</label>
               <textarea
                 name="reason"
                 required
-                className="w-full px-3 py-2 border rounded-md"
+                className="w-full px-3 py-2 border rounded-md bg-white text-black"
                 onChange={handleChange}
               />
             </div>
