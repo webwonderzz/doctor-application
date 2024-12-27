@@ -40,17 +40,17 @@ const About = () => {
         <section className="grid md:grid-cols-3 gap-6 ">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <Stethoscope className="mx-auto text-blue-600 mb-4" size={48} />
-            <h3 className="text-xl font-semibold mb-3">General Checkup</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">General Checkup</h3>
             <p className="text-gray-600">Comprehensive health evaluations</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <Stethoscope className="mx-auto text-blue-600 mb-4" size={48} />
-            <h3 className="text-xl font-semibold mb-3">Specialist Care</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">Specialist Care</h3>
             <p className="text-gray-600">Expert doctors across specialties</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <Stethoscope className="mx-auto text-blue-600 mb-4" size={48} />
-            <h3 className="text-xl font-semibold mb-3">Emergency Support</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">Emergency Support</h3>
             <p className="text-gray-600">24/7 emergency medical services</p>
           </div>
         </section>
