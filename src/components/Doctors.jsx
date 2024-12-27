@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { Calendar, MapPin, Phone, Mail, User, Stethoscope } from 'lucide-react';
+import {  User} from 'lucide-react';
 
 // Doctors Page Component
 const Doctors = () => {

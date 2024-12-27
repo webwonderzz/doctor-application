@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { Calendar, MapPin, Phone, Mail, User, Stethoscope } from 'lucide-react';
+import { MapPin, Phone, Mail} from 'lucide-react';
 import Swal from 'sweetalert2'
 
 // Contact Page
