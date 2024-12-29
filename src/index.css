@@ -70,23 +70,22 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-.animate-fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeIn 1.5s ease-in-out forwards;
+.animate-fade-in{
+  opacity:0;
+  transform:translateY(20px);
+  animation:fadeIn 1.5s ease-in-out forwards;
 }
-
-.animate-fade-in.delay-1 {
+.animate-fade-in.delay-1{
   animation-delay: 0.5s;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(20px);
   }
-  to {
-    opacity: 1;
+  to{
+    opacity:1;
     transform: translateY(0);
   }
 }
